@@ -1,0 +1,81 @@
+originally: 2 convolution layers and 2 hidden layers
+step 0, training accuracy 0.18
+step 100, training accuracy 0.8
+step 200, training accuracy 0.84
+step 300, training accuracy 0.98
+step 400, training accuracy 0.94
+step 500, training accuracy 0.94
+step 600, training accuracy 0.96
+step 700, training accuracy 0.92
+step 800, training accuracy 1
+step 900, training accuracy 0.98
+test accuracy 0.9637
+
+
+2-1
+step 0, training accuracy 0.14
+step 100, training accuracy 0.64
+step 200, training accuracy 0.8
+step 300, training accuracy 0.84
+step 400, training accuracy 0.84
+step 500, training accuracy 0.88
+step 600, training accuracy 0.92
+step 700, training accuracy 0.96
+step 800, training accuracy 0.92
+step 900, training accuracy 0.9
+test accuracy 0.9345
+
+
+1-2
+step 0, training accuracy 0.14
+step 100, training accuracy 0.86
+step 200, training accuracy 0.88
+step 300, training accuracy 0.94
+step 400, training accuracy 0.94
+step 500, training accuracy 0.86
+step 600, training accuracy 0.96
+step 700, training accuracy 0.96
+step 800, training accuracy 1
+step 900, training accuracy 0.96
+test accuracy 0.9436
+
+1-1
+step 0, training accuracy 0.08
+step 100, training accuracy 0.58
+step 200, training accuracy 0.66
+step 300, training accuracy 0.64
+step 400, training accuracy 0.74
+step 500, training accuracy 0.86
+step 600, training accuracy 0.86
+step 700, training accuracy 0.86
+step 800, training accuracy 0.9
+step 900, training accuracy 0.86
+test accuracy 0.8991
+
+
+10000 steps: test accuracy 0.9915
+
+
+show intermediate results to see feature maps
+
+
+deconv
+https://chienlima.wordpress.com/2014/07/26/visualization-ii-use-heap-to-find-max_activation/
+
+deconv a network: conv with the transpose of W with flipping
+deconv(x*W) = x * W * transpose(W)[::-1,::-1]
+
+
+todo:
+1. conv1 vs conv2
+2. different epches
+3. plt1 vs plt2
+
+
+aim
+1. monitor network's performance
+2. network config tuning
+3. training resource control
+
+
+
