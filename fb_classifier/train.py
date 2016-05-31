@@ -100,8 +100,8 @@ for i in range(30001):
     # decon = plc.get_decon(h_conv2_val, W_conv2)
     # plc.plot(bat0_val, decon, batch[1], range(10), "data/conv2_plt2_%d.png" % i)
   train_step.run(feed_dict={x: batch[0], y_: batch[1], keep_prob: 0.5})
-  if i%1000 == 0:
-    saver.save(sess, "model/mnist-model", global_step=i)
+  # if i%1000 == 0:
+  #   saver.save(sess, "model/mnist-model", global_step=i)
 
 print "test accuracy %g"%accuracy.eval(feed_dict={
     x: mnist.test.images, y_: mnist.test.labels, keep_prob: 1.0})
