@@ -1,0 +1,39 @@
+fish 827, fish 1515, scale to 80*60, in_channel=3 for cnn
+step 5700, training accuracy 0.34
+step 5800, training accuracy 0.46
+step 5900, training accuracy 0.26
+step 6000, training accuracy 0.32
+step 6100, training accuracy 0.38
+step 6200, training accuracy 0.4
+step 6300, training accuracy 0.34
+step 6400, training accuracy 0.32
+step 6500, training accuracy 0.36
+step 6600, training accuracy 0.3
+step 6700, training accuracy 0.46
+step 6800, training accuracy 0.46
+step 6900, training accuracy 0.28
+step 7000, training accuracy 0.38
+step 7100, training accuracy 0.36
+step 7200, training accuracy 0.52
+step 7300, training accuracy 0.48
+step 7400, training accuracy 0.28
+step 7500, training accuracy 0.32
+step 7600, training accuracy 0.24
+step 7700, training accuracy 0.36
+step 7800, training accuracy 0.34
+step 7900, training accuracy 0.36
+step 8000, training accuracy 0.38
+step 8100, training accuracy 0.36
+step 8200, training accuracy 0.44
+
+
+fish 827, fish 1515, scale to 80*60, in_channel=1 for cnn
+step 700, training accuracy 0.3
+step 800, training accuracy 0.34
+step 900, training accuracy 0.4
+step 1000, training accuracy 0.38
+
+
+
+
+
